@@ -1,0 +1,200 @@
+<% include partials/header%>
+
+<div class="container" style="margin-top: 60px;">
+	<div class="row">
+		<hr>
+		<hr>
+		<hr>
+				<div class="col-lg-4 col-sm-4 col-xs-4 col-md-4">	
+			<div class="list-group">
+			  <a href="#" class="list-group-item list-group-item-action active">
+			    Complains/Suggestions
+			  </a>
+			</div>
+			<div>
+				<form action="/complain" method="post">
+					<label>Subject</label><br>
+					<input type="" name=""><br>
+					<label>Complains/Suggestions</label><br>
+					<textarea cols="25" rows="8"></textarea><br>
+					<button class="btn btn-primary">Send</button>
+				</form>
+			</div>
+	</div>
+		<div class="col-lg-8 col-sm-8 col-xs-8 col-md-8">
+			<div class="card" style="padding: 20px;">
+				<p></p>
+			  	<h2>Projects</h2>
+			</div>	
+				<h1 style="color: red; font-size: 2.2em;">Notice!!!</h1>
+			<p style="color: red; font-size: 1.2em;">
+				Please note that you are requested to read and understand the projects before embacking on any of them, you are requested to pick one out of the many projects or contact EAAT Main office should you have a project in mind.
+			</p>
+			<p style="color: red; font-size: 1.2em;">
+				Awarding of certificate will be dependent on your satisfactory completion of your project. dont hesitate to consult your instructor should you have any issue with the projects
+			</p>
+				<div class="row" id="top6">
+			<div class="adv-header">
+			<h3>EAAT Systems 2018 on demand students projects</h3>
+			  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingOne">
+			      <h4 class="panel-title">
+			        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			         Admission Registeration System
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+			      <div class="panel-body">
+			      	<p>Core Objectives</p>
+			      	<p>
+			      		You have been contracted by a newly established university, they want you to develop a system that can do the following;
+			      		<ul style="list-style: none;">
+			      			<li>Capture prospective students Biodata</li>
+			      			<li>Capture the prospective students previous admission data</li>
+			      			<li>Capture the Intended courses and department in three different chioces of the prospective student.</li>
+			      		</ul>
+			      	</p>
+			      	<p>
+			      		Hints: the registration process should be in three stepds first the systems should capture the biodata of the student which include personal data, parents/guardians data etc, then the second step should capture the previous accademic record which includes, primary school, secondary school and any other school. the system should be able to allow them send their results. and lastly the system should capture the student chioce of course of study, they should be given the option of picking upto three different chioces. after this the stuent can then be able to submit the form.
+			      	</p>
+			      	<p>
+			      		note: you might first of all ask the student to register with their email and username before proceeding to the registration this will help you keep track of the current stage of their registration and it will help them come back and continue from where they stopped.
+			      	</p>
+			      	<p>
+			      		Duration:
+			      	</p>
+			      	<p>
+			      		Upon proceeding, you are requied to complete, host the system on a domi-Server(Herokuapp) within 6 weeks
+			      	</p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingfive">
+			      <h4 class="panel-title">
+			        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+			         Post Sharing System
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapsefive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfive">
+			      <div class="panel-body">
+			      	<p>Core Objectives</p>
+			      	<p>
+			      		You have been contracted by a newly established company who wants to stay off the popular social media apps and they have requested you help them develop a post sharing app with the following features
+			      	</p>
+			      	<ul style="list-style: none;">
+			      			<li>Employees should be able to register in the system with their basic bio data.</li>
+			      			<li>Employees should be able to view other registered members in the system</li>
+			      			<li>Employees should be able to make apost from their profile page</li>
+			      			<li>They should be able to comment and like other peoples post</li>
+			      		</ul>
+			      		<p>
+			      			Hint:<br>
+			      			<p>Create a simple registration page and a login page using the post routes and the passport packages.</p> 
+			      			<p>Create a get route which queries the databsae and retrives all registered users then style them in your ejs files using css</p>
+			      			<p>Create a form that allows the user to make a post and send it the database using post route</p>
+			      			<p>Craete a mini form at the end of all the post which allows a user to comment on them.</p>
+			      			<p>Create a button that allows the user to click and like a particular post.</p>
+			      		</p>
+			      		<p>
+			      		Duration:
+			      	</p>
+			      	<p>
+			      		Upon proceeding, you are requied to complete, host the system on a domi-Server(Herokuapp) within 4weeks
+			      	</p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingTwo">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			        	Grade Computation System
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+			      <div class="panel-body">
+			      	<p>Core Objectives</p>
+			      	<p>The current secondary school that your work with are manually computing their result sheet and they have pleaded with you to help them automate the system. the main features they want from the system is outlined below.</p>
+			      	<ul style="list-style: none">
+			      		<li>a form that will enable each form mistress to enter the students in her class and save in the database</li>
+			      		<li>A report card for each student that contains all the courses he/she offers</li>
+			      		<li>A script that will calculate the total score of a student when the class teacher enters the scores.</li>
+			      		<li>A scriptthat will determine who scores most in any subject</li>
+			      	</ul>
+			      	<p>
+			      		Hints: <br>
+			      		<p>Create a registration form for the form mistress using css and HTML and send them as a post request to the database.</p>
+			      		<p>Create a report card of the school just as it looks on the manual card but give room for entering of data into the card</p>
+			      		<p>Using Javascript calculate the total score of each student and save them in the database</p>
+			      		<p>Write a javascript code to determine who has the highest score na particular subject.</p>
+			      	</p>
+			      	<p>
+			      		Duration:
+			      	</p>
+			      	<p>
+			      		Upon proceeding, you are requied to complete, host the system on a domi-Server(Herokuapp) within 4weeks
+			      	</p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingThree">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			        	Store Keeping/Record Keeping system.
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+			      <div class="panel-body">
+			      	<p>Core Objectives</p>
+			      	<p>You have recently noticed that you are running short of items without a prior knowledge and you decided to automate your shop using what you have learnt. the system should have the following features</p>
+			      		<u style="list-style:none">
+			      			<li>A form to capture every item you have in the store, their prices and their quantity </li>
+			      			<li>A script that decreasesthe quantity of good by the number of items sold at a particular point. </li>
+			      			<li>A script that can generate the total amount both in price and in quantity of good sold in a particular day.</li>
+			      		</u>
+			      	<p>
+			      		Duration:
+			      	</p>
+			      	<p>
+			      		Upon proceeding, you are requied to complete, host the system on a domi-Server(Herokuapp) within 5 weeks
+			      	</p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="panel panel-default">
+			  <div class="panel-heading" role="tab" id="headingfour">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+			        Course Registration System
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
+			      <div class="panel-body">
+			      	<p>Core Objectives</p>
+			      	<p>As a student of a university you found out that students go through so many stress in trying to register for their next semester course and you decided to automate the system.</p>
+			      	<p>develop a system that will aid the students t pick their next semester courses and submit to their HOD at a click of a button</p>
+			      	<p>
+			      		Duration:
+			      	</p>
+			      	<p>
+			      		Upon proceeding, you are requied to complete, host the system on a domi-Server(Herokuapp) within 3 weeks
+			      	</p>
+			      </div>
+			    </div>
+			</div>
+			</div>
+			</div>
+	</div>
+		</div>		
+
+	</div>
+</div>
+<% include partials/footer%>

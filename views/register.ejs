@@ -1,0 +1,113 @@
+<% include partials/header2%>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <!-- <li data-target="#myCarousel" data-slide-to="0" class="active"></li> -->
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="../top1.jpg" alt="Chania">
+      <div class="carousel-caption">
+        <h2 style="font-size: 2em">REGISTER WITH US TODAY!</p>
+        	<a href="/pages/register"><i class="fa fa-mail btn btn-danger">Register Now</i></a>
+      </div>
+    </div>    
+  </div>
+</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="form">
+		<p style="margin: 50px; text-align: center; font-size: 18px; opacity: .7">Register with us and start your journey as a programmer</p>	
+			<form action="/register" method="POST">
+			  <div class="form-row">
+			    <div class="form-group col-md-6">
+			      <label for="inputEmail4">Full Name</label>
+			      <input type="text" name="name" class="form-control" id="inputEmail4" placeholder="Full Name" required>
+			    </div>
+			    <div class="form-group col-md-6" >
+			      <label for="inputPassword4">E-mail</label>
+			      <input type="email" class="form-control" id="inputPassword4" placeholder="E-mail" name="email" required>
+			    </div>
+			  </div>		  
+			  <div class="form-row">
+			    <div class="form-group col-md-12" >
+			      <label for="inputPassword4">Phone number</label>
+			      <input type="text" class="form-control" id="inputPassword4" placeholder="Phone number" name="number" required>
+			    </div>
+			  </div>		  
+			  <div class="form-row">
+			    <div class="form-group col-md-12" >
+			      <label for="inputPassword4">Select Course</label>
+			      <select class="form-control">
+			      	<option>Select a course</option>
+			      	<option>Web Application development (MongoDB, Express, Nodejs, javascript etc)</option>
+			      	<option>Web Application development (php, Javascript, Laravel, SQL etc)</option>
+			      	<option>Web Application development (Python, javaScript, )</option>
+			      	<option>Android Application Dev (React-Native)</option>
+			      	<option>Android Application Dev (Java & Kotlin)</option>
+			      	<option>UI/UX design</option>
+			      	<option>Graphics design</option>
+			      	<option>Content Management Systems (Wordpress, Jumla, Drupal etc)</option>
+			      	<option>Game Development (C#)</option>
+			      </select>
+			    </div>
+			  </div>			  
+			  <div class="form-row">
+			    <div class="form-group col-md-12" >
+			      <label for="inputPassword4">Choose Lecture Time</label>
+			      <select class="form-control">
+			      	<option>Select a Time</option>
+			      	<option>9.00am - 12.00pm</option>
+			      	<option>12.00pm - 3.00pm</option>
+			      	<option>3.00pm - 6.00pm</option>
+			      </select>
+			    </div>
+			  </div>			  
+			  <div class="form-row">
+			    <div class="form-group col-md-12" >
+			      <label for="inputPassword4">Currrent Status</label>
+			      <select class="form-control">
+			      	<option>Select a Current status</option>
+			      	<option>O'Level</option>
+			      	<option>Under Graduate</option>
+			      	<option>Graduate</option>
+			      	<option>Post Graduate</option>
+			      	<option>Artisian</option>
+			      </select>
+			    </div>
+			  </div>			  
+			  <div class="form-row">
+			    <div class="form-group col-md-12" >
+			      <label for="inputPassword4">Choose a location Status</label>
+			      <select class="form-control">
+			      	<option>Choose a location Status</option>
+			      	<option>Anambra (Awka)</option>
+			      	<option>Anambra (Ekwulobia)</option>
+			      	<option>Ebonyi (Afikpo)</option>
+			      	<option>Ebonyi (Abakiliki)</option>
+			      	<option>Enugu (Enugu)</option>
+			      	<option>Enugu (Nsukka)</option>
+			      	<option>Imo (Owerri)</option>
+			      	<option>Imo (Orlu)</option>
+			      	<option>Abia (Aba)</option>
+			      	<option>Abia (Umuahia)</option>
+			      </select>
+			    </div>
+			  </div>	  			 
+			  <div class="form-row">
+			    <div class="form-group col-md-12">
+			      <label for="inputEmail4">Additional Info</label><br>
+			      <textarea cols="75" rows="10" required></textarea>
+			    </div>
+			  </div>	
+			  <button type="submit" class="btn btn-danger" style="width: 30%; margin: 50px 10px">Submit</button>
+			</form>
+		</div>
+	</div>
+</div>
+<% include partials/footer%>
